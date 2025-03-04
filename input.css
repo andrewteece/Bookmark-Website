@@ -4,9 +4,11 @@
 
 @media screen(lg) {
   .bg-hero {
-    width: 200px;
+    width: 2000px;
     height: 300px;
     left: 30%;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
     @apply absolute rounded-l-full top-52 bg-softBlue;
   }
 
